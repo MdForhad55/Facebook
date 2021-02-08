@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header-area start here */
+
+header {
+    background: #3B5998;
+    padding: 15px 0 7px 0;
+}
+header .container {
+    width: 80%;
+    margin: 0 auto;
+}
+header .container .head-content-area {
+    display: flex;
+}
+header .container .head-content-area .logo-area {
+    width: 50%;
+}
+header .container .head-content-area .logo-area h1 {
+    font-size: 45px;
+}
+header .container .head-content-area .logo-area a {
+    text-decoration: none;
+    color: #fff;
+    margin-left:70px;
+}
+header .container .head-content-area .log-in-area {
+    width: 50%;
+}
+header .container .head-content-area .log-in-area form {
+    display: flex;
+    justify-content: center;
+}
+header .container .head-content-area .log-in-area form .mobile {
+    margin-right: 15px;
+}
+header .container .head-content-area .log-in-area form .password {
+    margin-right: 15px;
+}
+header .container .head-content-area .log-in-area form .password a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+header .container .head-content-area .log-in-area form .password a:hover {
+    text-decoration: underline;
+}
+header .container .head-content-area .log-in-area form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+header .container .head-content-area .log-in-area form input {
+    display: block;
+    margin-bottom: 2px;
+    padding: 3px 2px;
+    width: 100%;
+    border: 1px solid #000;
+}
+header .container .head-content-area .log-in-area form .button {
+    width: 20%;
+    padding: 20px 0;
+}
+header .container .head-content-area .log-in-area form .button input {
+    padding: 4px 8px;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4267b2;
+    width: 45%;
+    margin: 0;
+    font-size: 13px;
+    border: 1px solid #18377a;
+}
+header .container .head-content-area .log-in-area form .button input:hover {
+    background-color: #2f56a3;
+}
+
+/* Header area End here */ 
+
+/* Section-One Start Here */
+
+.section-one {
+    background-color: #EBEDF0;
+    padding: 30px 0 50px 0;
+}
+.section-one .sign-up-form {
+    width: 30%;
+    margin: 0 auto;
+}
+.section-one .sign-up-form h2 {
+    font-size:46px;
+    font-weight: 100;
+}
+.section-one .sign-up-form p {
+    font-size: 25px;
+    color: #9094B2;
+    font-weight: 100;
+    margin: 10px 0 18px 0;
+}
+.section-one .sign-up-form form {
+    box-sizing: border-box;
+}
+.section-one .sign-up-form form .first-name {
+    display: flex;
+    margin: 10px 0;
+}
+.section-one .sign-up-form form .first-name input:first-child {
+    padding: 10px 0 10px 5px;
+    font-size: 18px;
+    color: #666;
+    width: 49%;
+    margin-right: 12px;
+    border: 1px solid #CCD0D5;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.section-one .sign-up-form form .first-name input:last-child {
+    padding: 10px 0 10px 5px;
+    font-size: 18px;
+    color: #666;
+    width: 49%;
+    border: 1px solid #CCD0D5;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.section-one .sign-up-form form .number input {
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    border: 1px solid #CCD0D5;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.section-one .sign-up-form form .password input {
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    border: 1px solid #CCD0D5;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.section-one .sign-up-form form .date-select p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #9094B2;
+}
+.section-one .sign-up-form form .date-select .select-date {
+    display: flex;
+}
+.section-one .sign-up-form form .date-select .select-date select {
+    padding: 6px 4px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.section-one .sign-up-form form .gender-select p {
+    margin: 0 0 13px 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #9094B2;
+}
+.section-one .sign-up-form form .gender-select label {
+    font-size: 19px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.section-one .sign-up-form form .content {
+    width: 70%;
+}
+.section-one .sign-up-form form .content p {
+    font-size: 11px;
+    color: #9094B2;
+    line-height: 17px;
+}
+.section-one .sign-up-form form .content a {
+    text-decoration: none;
+    color: #385898;
+}
+.section-one .sign-up-form form .content a:hover {
+    text-decoration: underline;
+}
+.section-one .sign-up-form form .sign-up-button input {
+    padding: 10px 63px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid #3b6e22;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.section-one .sign-up-form form .sign-up-button input:hover {
+    background: linear-gradient(#69a74e, #67ae55);
+    cursor: pointer;
+}
+
+/* Section-area End here */
+
+/* Section-two Area start Here */
+
+.section-two {
+    padding: 50px 0 0 0;
+}
+.section-two .container {
+    width: 70%;
+    margin: 0 auto;
+}
+.section-two .container .language ul {
+    padding-bottom: 10px;
+}
+.section-two .container .language hr {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #DDDFE2;
+    width: 95%;
+}
+.section-two .container .language ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 12px;
+}
+.section-two .container .language ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color:#385898;
+}
+.section-two .container .language ul li:last-child {
+    border: 1px solid #CCD0D5;
+    padding: 0 5px;
+    font-size: 18px;
+}
+.section-two .container .language ul li a:hover {
+    text-decoration: underline;
+}
+.section-two .container .list-item ul {
+    margin-top: 8px;
+}
+.section-two .container .list-item ul li {
+    display: inline-block;
+    padding-right: 17px;
+}
+.section-two .container .list-item ul li a {
+    
+    color: #385898;
+    font-size: 13px;
+    text-decoration: none;
+}
+.section-two .container .list-item ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section-two end here */
+
+/* Footer Area Start Area */
+
+footer {
+    padding: 20px;
+}
+footer .container {
+    width: 72%;
+    margin: 0 auto;
+}
+footer .container p {
+    font-size: 12px;
+    color: #CCD0D5;
+}
